@@ -3,7 +3,7 @@ package com.aluraproject.apileng;
 import org.springframework.data.annotation.Id;
 import org.springframework.data.mongodb.core.mapping.Document;
 
-@Document(collection = "principaisLinguagens")
+@Document(collection = "aluraDb")
 public class Apilang {
 
     @Id

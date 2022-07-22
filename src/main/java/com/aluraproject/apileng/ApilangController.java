@@ -21,9 +21,9 @@ public class ApilangController {
     }
 
     @PostMapping(value = "/linguagens")
-    public Apilang registerLanguage(@RequestBody Apilang languageChosen) {
-        Apilang savedLanguage = repositoryInitial.save(languageChosen);
+    public Apilang registerLanguage(@RequestBody Apilang languagesAll) {
+        Apilang savedLanguage = repositoryInitial.save(languagesAll);
         return savedLanguage;
     }
-    
+
 }
